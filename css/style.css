@@ -1,0 +1,19 @@
+/* --- Aさん担当: 基本スタイルと共通レイアウト --- */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+main { /* mainタグの上下パディング */
+    padding: 20px 0;
+}
+/* --- 基本スタイルここまで --- */
