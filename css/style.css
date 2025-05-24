@@ -7,13 +7,38 @@ body {
     color: #333;
     background-color: #f4f4f4;
 }
+
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
     padding: 0 20px;
 }
-main { /* mainタグの上下パディング */
+
+main {
+    /* mainタグの上下パディング */
     padding: 20px 0;
 }
+
 /* --- 基本スタイルここまで --- */
+
+/* --- Bさん担当: 会社紹介ページ --- */
+.company-info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.company-info th,
+.company-info td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.company-info th {
+    background-color: #f0f0f0;
+    width: 30%;
+}
+
+/* --- Bさん担当: 会社紹介ページここまで --- */
