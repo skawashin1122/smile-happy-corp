@@ -19,44 +19,52 @@ main {
     /* mainタグの上下パディング */
     padding: 20px 0;
 }
+
 /* --- 基本スタイルここまで --- */
 
 /* --- Aさん担当: ヘッダー --- */
 header {
-background: #35424a;
-color: #ffffff;
-padding-top: 30px;
-min-height: 70px;
-border-bottom: #e8491d 3px solid;
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
 }
+
 header .logo {
-float: left;
-font-size: 24px;
-margin: 0;
+    float: left;
+    font-size: 24px;
+    margin: 0;
 }
+
 header nav {
-float: right;
-margin-top: 10px;
+    float: right;
+    margin-top: 10px;
 }
+
 header nav ul {
-margin: 0;
-padding: 0;
-list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
+
 header nav ul li {
-display: inline;
-padding: 0 20px 0 20px;
+    display: inline;
+    padding: 0 20px 0 20px;
 }
+
 header nav a {
-color: #ffffff;
-text-decoration: none;
-text-transform: uppercase;
-font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
 }
+
 header nav a:hover {
-color: #e8491d;
-font-weight: bold;
+    color: #e8491d;
+    font-weight: bold;
 }
+
 /* --- Aさん担当: ヘッダーここまで --- */
 
 /* --- Bさん担当: 会社紹介ページ --- */
@@ -77,47 +85,132 @@ font-weight: bold;
     background-color: #f0f0f0;
     width: 30%;
 }
+
 /* --- Bさん担当: 会社紹介ページここまで --- */
 
 /* --- Cさん担当: お問い合わせフォーム --- */
 .contact-form div {
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
+
 .contact-form label {
-display: block;
-margin-bottom: 5px;
-font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
+
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
-width: 100%;
-padding: 10px;
-border: 1px solid #ddd;
-border-radius: 5px;
-box-sizing: border-box; /* paddingがwidthに影響しないように */
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    /* paddingがwidthに影響しないように */
 }
+
 .contact-form textarea {
-resize: vertical; /* 縦方向のみリサイズ可 */
+    resize: vertical;
+    /* 縦方向のみリサイズ可 */
 }
+
 .contact-form .required {
-color: #e8491d; /* 必須マークの色 */
-font-weight: bold;
+    color: #e8491d;
+    /* 必須マークの色 */
+    font-weight: bold;
 }
-.form-message { /* JavaScriptからのメッセージ表示用 */
-margin-top: 10px;
-padding: 10px;
-border-radius: 5px;
-/* display: none; 初期状態は非表示でも良い */
+
+.form-message {
+    /* JavaScriptからのメッセージ表示用 */
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    /* display: none; 初期状態は非表示でも良い */
 }
+
 .form-message.success {
-background-color: #d4edda;
-color: #155724;
-border: 1px solid #c3e6cb;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
 }
+
 .form-message.error {
-background-color: #f8d7da;
-color: #721c24;
-border: 1px solid #f5c6cb;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
 }
+
 /* --- Cさん担当: お問い合わせフォームここまで --- */
+
+
+
+
+/* --- Aさん担当: フッター --- */
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* --- Aさん担当: フッターここまで --- */
+
+
+
+/* --- Aさん担当: トップページメインコンテンツ --- */
+.hero {
+    background: #35424a;
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+    /* hero内のh2の色を白に指定 */
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    /* ボタンの共通スタイルもAさんが定義 */
+    display: inline-block;
+    background: #e8491d;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #35424a;
+    /* ホバー時の背景色をヘッダーと同じに */
+    color: #fff;
+}
+
+/* sectionの共通スタイルもここで定義 */
+.section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.section h2,
+.section h3 {
+    /* section内のh2, h3の共通色 */
+    color: #35424a;
+}
+
+/* --- Aさん担当: トップページメインコンテンツここまで --- */
