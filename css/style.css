@@ -140,11 +140,7 @@ header nav a:hover {
     color: #721c24;
     border: 1px solid #f5c6cb;
 }
-
-/* --- Cさん担当: お問い合わせフォームここまで --- */
-
-
-
+/* --- Cさん担当: お問い合わせフォームここまで --- *
 
 /* --- Aさん担当: フッター --- */
 footer {
@@ -154,10 +150,7 @@ footer {
     padding: 20px;
     margin-top: 30px;
 }
-
 /* --- Aさん担当: フッターここまで --- */
-
-
 
 /* --- Aさん担当: トップページメインコンテンツ --- */
 .hero {
@@ -214,3 +207,17 @@ footer {
 }
 
 /* --- Aさん担当: トップページメインコンテンツここまで --- */
+
+/* --- Bさん担当: サービス紹介ページ --- */
+.service-list .service-item {
+background: #fff; /* sectionの背景が白なので、ここでは不要かもしれないが明示 */
+padding: 20px;
+margin-bottom: 20px; /* service-item間のマージン */
+border-left: 5px solid #e8491d;
+border-radius: 0 5px 5px 0; /* 左のボーダーと合わせて角丸調整 */
+}
+.service-list .service-item h3 {
+margin-top: 0;
+color: #e8491d; /* サービスアイテムのh3の色をアクセントカラーに */
+}
+/* --- Bさん担当: サービス紹介ページここまで --- */
